@@ -1,0 +1,54 @@
+*{
+    background-color: #2d3142;
+    color: #bfc0c0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#text{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 5%;
+}
+#textInput{
+    background-color: #4f5d75;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 40%;
+    height: 30px;
+    font-size: x-large;
+    margin-top: 3%;
+    margin-left: 30%;
+    display: block;
+}
+#inputButton{
+    background-color: #ef8354;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 5px;
+    width: 30%;
+    height: 30px;
+    margin-left: 35%;
+    margin-top: 3%;
+    font-size: large;
+    display: block;
+}
+#inputButton:hover{
+    cursor: pointer;
+}
+#portList{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+.subDiv{
+    margin-top: 1%;
+    width: 100%;
+    display: block;
+}
+.port{
+    display: inline;
+    margin-left: 10%;
+    margin-right: 10%;
+}

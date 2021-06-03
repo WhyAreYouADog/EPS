@@ -1,0 +1,29 @@
+{
+  "name": "eps",
+  "version": "1.0.0",
+  "description": "Electron Port Scanner",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhyAreYouADog/EPS.git"
+  },
+  "keywords": [
+    "Security",
+    "Port",
+    "Scanning",
+    "Manager"
+  ],
+  "author": "Noah Ferrari & Andrin Schranz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WhyAreYouADog/EPS/issues"
+  },
+  "homepage": "https://github.com/WhyAreYouADog/EPS#readme",
+  "dependencies": {
+    "electron": "^13.1.0",
+    "nnmap.js": "^1.0.1"
+  }
+}
