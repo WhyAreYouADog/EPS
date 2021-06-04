@@ -2,6 +2,15 @@
     background-color: #2d3142;
     color: #bfc0c0;
     font-family: Arial, Helvetica, sans-serif;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
 }
 #text{
     font-size: xx-large;
@@ -51,4 +60,16 @@
     display: inline;
     margin-left: 10%;
     margin-right: 10%;
+}
+#loadingDiv{
+    display: none;
+    margin-left: 35%;
+    margin-top: 7%;
+    background-color: #efeeef;
+    width: 30%;
+    border-radius: 50%;
+}
+#loadingGif{
+    background-color: transparent;
+    width: 100%;
 }

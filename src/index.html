@@ -10,9 +10,12 @@
 <body>
     <div id="center">
         <p id="text">Scann IP on open Ports</p>
-        <input type="index" id="textInput">
+        <input type="index" id="textInput" placeholder="127.0.0.1">
         <button id="inputButton" onclick="startScann()">Start Scann</button>
         <div id="portList"></div>
+        <div id="loadingDiv">
+            <img id="loadingGif" src="./assets/loading.gif" alt="loading gif">
+        </div>
     </div>
     <script src="./script.js"></script>
 </body>

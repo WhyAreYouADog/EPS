@@ -5,8 +5,8 @@ const scanner = new Scanner({
 });
 
 scanner.on('scanComplete', (nmapOut) => {
+    document.getElementById("loadingDiv").style.display = "none"
     var data = nmapOut.scanData.data.hosts[0].ports.portArray
-    console.log(data);
     listPorts(data)
 });
 
@@ -39,9 +39,20 @@ function getIP(){
 async function startScann(){
     var ip = String(await getIP())
     var div = document.getElementById("portList")
+    document.getElementById("loadingDiv").style.display = "block"
 
-    console.log(ip);
+    if(div.hasChildNodes()){
+        div.remove()
+        var newDiv = document.createElement("div")
+        newDiv.setAttribute("id","portList")
+        document.getElementById("center").appendChild(newDiv)
+    }
     
-    scanner.startScan(ip)
+    if(ip == ""){
+        scanner.startScan("127.0.0.1")
+    }
+    else{
+        scanner.startScan(ip)
+    }
 
 }  
