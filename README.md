@@ -16,6 +16,12 @@ Um den Portscanner verwenden zu können clonenen sie als erstes dieses Repositor
 
 `git clone https://github.com/WhyAreYouADog/EPS.git`
 
+Danach wechseln sie in das `cd EPS/code` Verzeichnis.
+
+Installieren sie dann alle nötigen module mit `npm i `.
+
+Danach können sie das Programm mit `npm start` starten.
+
 ## Schema
 
 ![Schema Picture](assets/Schema.png)
