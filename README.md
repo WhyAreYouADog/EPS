@@ -23,7 +23,7 @@ Installieren sie dann alle nötigen module mit `npm i `.
 Danach können sie das Programm mit `npm start` starten.
 
 Im oberen Eingabefeld kann eine IP oder Domain angegeben werden. 
-Mit dem Scan Button werden die Ports 1 bis 65535 vom Ziel gescannt.
+Mit dem Scan Button werden die wichtigsten Ports vom Ziel gescannt.
 
 ## Schema
 
